@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="./css/site.css">
+    <link rel="stylesheet" href="./css/tourDetail.css">
+    <title>Destination</title>
+</head>
+
+<body>
+    <div class="headerTop">
+        <div class="container socialTop">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-6">
+                    <div class="logo-slogan">
+                        <div class="logo">
+                            <div class="imgBox">
+                                <a href="#"><img src="./images/lg.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="slogan">
+                            <h2>Tailor-made Programs For Unique Experiences</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="contact-top">
+                        <div class="contact">
+                            <div class="ct-phone">
+                                <i class="fas fa-phone fa-flip-horizontal"></i>
+                                <p>+84 963 98 57 54</p>
+                            </div>
+                            <div class="ct-email">
+                                <i class="far fa-envelope"></i>
+                                <p>booking@travelindochine.com</p>
+                            </div>
+                        </div>
+
+                        <div class="create-plan">
+                            <a href="#" class="btn btnPrimary">Plan My Trip</a>
+                        </div>
+
+                        <div class="support">
+                            <a href="#">
+                                <div class="imgBox">
+                                    <img src="./images/support.png" alt="">
+                                </div>
+                                <p>Need Hepl</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="banner">
+
+        <div class="navigation">
+            <ul class="mainMenu">
+                <li><a href="#">HOME</a></li>
+                <li class="hasSub">
+                    <a href="#">DESTINATIONS</a>
+                    <ul class="subMenu">
+                        <li><a href="#">VietNam</a></li>
+                        <li><a href="#">Laos</a></li>
+                        <li><a href="#">Colombia</a></li>
+                        <li><a href="#">England</a></li>
+                    </ul>
+                </li>
+                <li class="hasSub">
+                    <a href="#">TRAVEL STYLES</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Classic Tours</a></li>
+                        <li><a href="#">Family Tours</a></li>
+                        <li><a href="#">Community Tours</a></li>
+                        <li><a href="#">Adventure Tours</a></li>
+                    </ul>
+                </li>
+                <li class="hasSub">
+                    <a href="#">CRUISES</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Ha Long Bay Cruises</a></li>
+                        <li><a href="#">Mekong Cruises</a></li>
+                        <li><a href="#">Shore Excursions</a></li>
+                        <li><a href="#">Da Nang Beach Cruises</a></li>
+                    </ul>
+                </li>
+                <li class="hasSub">
+                    <a href="#">COMMUNITY TOURS</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Community Service Tours</a></li>
+                        <li><a href="#">Charity Tours</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">MICE</a></li>
+                <li class="hasSub"><a href="#">ABOUT US</a></li>
+                <li class="hasSub"><a href="#">TRAVEL BLOG</a></li>
+            </ul>
+
+        </div>
+
+        <div class="info" style="background-image: url(/images/desMain3.jpg);">
+            <h2>7D6N NORTHERN VIETNAM TOUR</h2>
+            <p>Hanoi, Ha Long Bay, Sapa</p>
+        </div>
+    </section>
+
+    <section class="titleTour">
+        <div class="container">
+            <div class="wrap">
+                <div class="info">
+                    <h3>7D6N Northern Vietnam Tour</h3>
+                    <span><i class="fas fa-map-marked"></i>Hanoi, Ha Long Bay, Sapa</span>
+                </div>
+                <div class="price">
+                    <p>Price from</p>
+                    <h3>Price: <span>Contact us</span></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mainInformation">
+        <div class="container">
+            <ul class="nav " id="myTab" role="tablist">
+                <li class="tab" role="presentation">
+                    <button class="btn btnTab active" id="home-tab" data-bs-toggle="tab" data-bs-target="#overView"
+                        type="button" role="tab"><i class="fas fa-search"></i>overView</button>
+                </li>
+                <li class="tab" role="presentation">
+                    <button class="btn btnTab" id="home-tab" data-bs-toggle="tab" data-bs-target="#fullItineary"
+                        type="button" role="tab"><i class="fas fa-map-marked"></i>fullItineary</button>
+                </li>
+                <li class="tab" role="presentation">
+                    <button class="btn btnTab" id="home-tab" data-bs-toggle="tab" data-bs-target="#tripNote"
+                        type="button" role="tab"><i class="fas fa-clipboard-list"></i>Trip Notes & Inclutions</button>
+                </li>
+                <li class="tab" role="presentation">
+                    <button class="btn btnTab" id="home-tab" data-bs-toggle="tab" data-bs-target="#gallery"
+                        type="button" role="tab"><i class="far fa-images"></i>gallery</button>
+                </li>
+                <li class="tab" role="presentation">
+                    <button class="btn btnBooking" data-bs-toggle="modal" data-bs-target="#modalBooking"><i
+                            class="fas fa-envelope"></i>Book This
+                        Tour</button>
+
+                    <div class="modal fade" id="modalBooking">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <div class="wrap">
+                                        <h3 class="modal-title" id="staticBackdropLabel">15 days Vietnam Beach Holiday
+                                        </h3>
+                                        <p>We're experts who take pride in tailor-made itineraries that suit any need.
+                                            Please fill in the form below and a member of our team will be in touch
+                                            shortly.
+                                        </p>
+                                    </div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container-fluid">
+                                        <div class="row gx-4 gy-4">
+                                            <p>Please fill in the appropriate information below regarding any travel
+                                                plans or enquiries. Our team of travel experts will get back to you
+                                                shortly.
+                                            </p>
+                                            <div class="col-6">
+                                                <label for="yourName" class="form-label">
+                                                    Your Name
+                                                </label>
+                                                <input type="text" class="form-control" id="yourName">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="email" class="form-label">
+                                                    Email
+                                                </label>
+                                                <input type="email" class="form-control" id="email">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="phone" class="form-label">
+                                                    Phone Number
+                                                </label>
+                                                <input type="tel" class="form-control" id="phone">
+                                            </div>
+                                            <div class="col-6">
+                                                <label for="country" class="form-label">State</label>
+                                                <select id="country" class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-4" id="datetimepicker1">
+                                                <label for="datetime" class="form-label">DateTime</label>
+                                                <input type="text" class="form-control"><span
+                                                    class="input-group-addon"><i
+                                                        class="glyphicon glyphicon-th"></i></span>
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="tourCategory" class="form-label">Tour Category</label>
+                                                <select id="tourCategory" class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-2">
+                                                <label for="adult" class="form-label">Adults</label>
+                                                <input type="text" class="form-control" id="adult">
+                                            </div>
+                                            <div class="col-2">
+                                                <label for="children" class="form-label">Children</label>
+                                                <input type="text" class="form-control" id="children">
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-floating">
+                                                    <textarea class="form-control" placeholder="Leave a resquest here"
+                                                        id="specialRequest"></textarea>
+                                                    <label for="specialRequest">Special Resquest</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btnBooking"><i
+                                            class="fas fa-paper-plane"></i>Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="overView" role="tabpanel">
+                    <h3>Overview</h3>
+                    <p>Itinerary Summary</p>
+
+                    <div class="wrap-table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Day</th>
+                                    <th scope="col">Itinerary</th>
+                                    <th scope="col">Meals</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Day 1</th>
+                                    <td>Hanoi – Arrival</td>
+                                    <td>Dinner</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Day 2</th>
+                                    <td>Ha Noi - Ha Long Bay - overnight on cruise</td>
+                                    <td>Breakfast, Lunch, Dinner</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Day 3</th>
+                                    <td>Ha Long Bay - Ha Noi</td>
+                                    <td>Breakfast, Lunch</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="fullItineary" role="tabpanel">
+                    <h3>Full itinerary</h3>
+                    <div class="wrapItinerary">
+                        <div class="itineraryBlock">
+                            <div class="day">
+                                <span>Day 1</span>
+                            </div>
+                            <div class="descriptionDay">
+                                <p>Ha Noi – Arrival (D)</p>
+                                <span class="morning">We will greet you at the International Airport of Ha Noi and
+                                    take you to your hotel for check-in. Overnight in Ha Noi.</span>
+                            </div>
+                        </div>
+
+                        <div class="itineraryBlock">
+                            <div class="day">
+                                <span>Day 2</span>
+                            </div>
+                            <div class="descriptionDay">
+                                <p>Hanoi - Ha Long Bay – overnight on cruise (B/L/D)</p>
+                                <span class="morning">Good morning! After breakfast, you will check out and depart Hanoi
+                                    for Ha Long Bay. This scenic drive will take you through picturesque rice-farming
+                                    villages of the Red River Delta, where you see every day Vietnamese village life.
+                                    The trip is approximately three hours with a short stop on the way.</span>
+                                <span class="afternoon">Upon arrival at Ha Long, you will board your luxury junk boat
+                                    for
+                                    a delicious seafood lunch while the junk starts cruising around hundreds of
+                                    wonderful limestone formations arising from emerald green water. After lunch, you
+                                    will have the chance to explore one of the wonderful limestone caves dotted around
+                                    the bay. Continue cruising to a secluded spot for swimming and sun bathing before
+                                    dinner. Enjoy another seafood feast for dinner.</span>
+                                <span class="evening">Overnight on the Junk.</span>
+                            </div>
+                        </div>
+
+                        <div class="itineraryBlock">
+                            <div class="day">
+                                <span>Day 3</span>
+                            </div>
+                            <div class="descriptionDay">
+                                <p>Ha Long Bay - Hanoi (B/L)</p>
+                                <span class="morning">Wake up early and join the Tai Chi session on the top deck or
+                                    simply relax and enjoy the sunrise over the bay’s towering islands. Enjoy your
+                                    breakfast with a cup of coffee or tea and get ready for more exploration today.
+                                </span>
+                                <span class="afternoon">This morning, you will continue to cruise around the bay to find
+                                    more secluded areas to either swim or kayak in. The kayaks are lightweight and easy
+                                    to use. All guests will be issued with water buoyancy vests and the junk will be
+                                    near us at all times serving as a backup vessel. At midday, you will return to the
+                                    main harbor before transferring back to Hanoi.</span>
+                                <span class="evening">In the evening, head to the Ha Noi train station to catch
+                                    overnight train to Lao Cai. Overnight on train.</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tripNote" role="tabpanel">
+                    <h3>Trip Notes</h3>
+                    <div class="wrapTripNote">
+                        <div class="row">
+                            <div class="col-6 inclusions">
+                                <p>Inclusions</p>
+                                <div class="row gy-4">
+                                    <div class="col-12">
+                                        <span><i class="fas fa-check"></i>All transfer and quality air-conditioned
+                                            vehicles</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-check"></i>Accommodation (hotels/cruise)</span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-check"></i>ALocal English Speaking Guide (Other languages
+                                            are available on your request)
+                                        </span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-check"></i>Meals as mentioned in the program (Breakfast:
+                                            B ; Lunch: L ; Dinner: D)
+                                        </span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-check"></i>Airport transfer at destinations
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-6 exclusions">
+                                <p>Exclusions</p>
+                                <div class="row gy-4">
+                                    <div class="col-12">
+                                        <span><i class="fas fa-times"></i>Travel insurance
+                                        </span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-times"></i>Visa
+                                        </span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-times"></i>Personal expenses (telephone, shopping...)
+                                        </span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-times"></i>Tipping/ Gratuities
+                                        </span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-times"></i>Single Supplement
+                                        </span>
+                                    </div>
+                                    <div class="col-12">
+                                        <span><i class="fas fa-times"></i>Any additional expenses caused by reasons
+                                            beyond our control such as natural calamities (typhoon, floods), flight
+                                            delays rescheduling or cancellations, any accidents, medical evacuations,
+                                            riots, strikes etc.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="gallery" role="tabpanel">
+                    <div class="wrapGallery">
+                        <div class="row gx-4 gy-4">
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti1.jpeg">
+                                        <img src="./images/desti1.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti2.jpeg">
+                                        <img src="./images/desti2.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti3.jpeg">
+                                        <img src="./images/desti3.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti3.jpeg">
+                                        <img src="./images/desti3.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti3.jpeg">
+                                        <img src="./images/desti3.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti3.jpeg">
+                                        <img src="./images/desti3.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti3.jpeg">
+                                        <img src="./images/desti3.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="imgBox">
+                                    <a data-fancybox="galleryImg" href="./images/desti3.jpeg">
+                                        <img src="./images/desti3.jpeg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="gallery" role="tabpanel">...</div>
+        </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <section class="mainFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="wrap-info">
+                            <div class="imgBox">
+                                <img src="./images/lg.png" alt="">
+                            </div>
+                            <div class="infoCompany">
+                                <h3>HEAD OFFICE</h3>
+                                <div class="info">
+                                    <i class="fas fa-home"></i>
+                                    <span>Thong Nhat, Ward 16, Go Vap District, Ho Chi Minh City, Vietnam</span>
+                                </div>
+                                <div class="info">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>+84 963 98 57 54</span>
+                                </div>
+                                <div class="info">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>booking@travelindochine.com</span>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <div class="imgBox">
+                                    <img src="./images/paypal.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Destinations</h3>
+                                    <ul>
+                                        <li><a href="#">Vietnam</a></li>
+                                        <li><a href="#">Cambodia</a></li>
+                                        <li><a href="#">Laos</a></li>
+                                        <li><a href="#">Myanmar</a></li>
+                                        <li><a href="#">Multiple Countries</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Travel Styles</h3>
+                                    <ul>
+                                        <li><a href="#">Classic Tours</a></li>
+                                        <li><a href="#">Family Tours</a></li>
+                                        <li><a href="#">Community Tours</a></li>
+                                        <li><a href="#">Adventure Tours</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Cruises</h3>
+                                    <ul>
+                                        <li><a href="#">Ha Long Bay Cruises</a></li>
+                                        <li><a href="#">Mekong Cruises</a></li>
+                                        <li><a href="#">Shore Excursions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Educational Tours</h3>
+                                    <ul>
+                                        <li><a href="#">Community Service Tours</a></li>
+                                        <li><a href="#">Charity Tours</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.mainInformation .tab-content .tab-pane .wrapGallery .imgBox a').fancybox({
+                openEffect: 'elastic',
+                closeEffect: 'elastic',
+                width: 1200,
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>

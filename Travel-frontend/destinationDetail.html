@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./css/site.css">
+    <link rel="stylesheet" href="./css/destinationDetail.css">
+    <title>Destination</title>
+</head>
+
+<body>
+    <div class="headerTop">
+        <div class="container socialTop">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-6">
+                    <div class="logo-slogan">
+                        <div class="logo">
+                            <div class="imgBox">
+                                <a href="#"><img src="./images/lg.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="slogan">
+                            <h2>Tailor-made Programs For Unique Experiences</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="contact-top">
+                        <div class="contact">
+                            <div class="ct-phone">
+                                <i class="fas fa-phone fa-flip-horizontal"></i>
+                                <p>+84 963 98 57 54</p>
+                            </div>
+                            <div class="ct-email">
+                                <i class="far fa-envelope"></i>
+                                <p>booking@travelindochine.com</p>
+                            </div>
+                        </div>
+
+                        <div class="create-plan">
+                            <a href="#" class="btn btnPrimary">Plan My Trip</a>
+                        </div>
+
+                        <div class="support">
+                            <a href="#">
+                                <div class="imgBox">
+                                    <img src="./images/support.png" alt="">
+                                </div>
+                                <p>Need Hepl</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="banner">
+
+        <div class="navigation">
+            <ul class="mainMenu">
+                <li><a href="#">HOME</a></li>
+                <li class="hasSub">
+                    <a href="#">DESTINATIONS</a>
+                    <ul class="subMenu">
+                        <li><a href="#">VietNam</a></li>
+                        <li><a href="#">Laos</a></li>
+                        <li><a href="#">Colombia</a></li>
+                        <li><a href="#">England</a></li>
+                    </ul>
+                </li>
+                <li class="hasSub">
+                    <a href="#">TRAVEL STYLES</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Classic Tours</a></li>
+                        <li><a href="#">Family Tours</a></li>
+                        <li><a href="#">Community Tours</a></li>
+                        <li><a href="#">Adventure Tours</a></li>
+                    </ul>
+                </li>
+                <li class="hasSub">
+                    <a href="#">CRUISES</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Ha Long Bay Cruises</a></li>
+                        <li><a href="#">Mekong Cruises</a></li>
+                        <li><a href="#">Shore Excursions</a></li>
+                        <li><a href="#">Da Nang Beach Cruises</a></li>
+                    </ul>
+                </li>
+                <li class="hasSub">
+                    <a href="#">COMMUNITY TOURS</a>
+                    <ul class="subMenu">
+                        <li><a href="#">Community Service Tours</a></li>
+                        <li><a href="#">Charity Tours</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">MICE</a></li>
+                <li class="hasSub"><a href="#">ABOUT US</a></li>
+                <li class="hasSub"><a href="#">TRAVEL BLOG</a></li>
+            </ul>
+
+        </div>
+
+        <div class="info" style="background-image: url(/images/banner-1.jpg);">
+            <h2>VIETNAM</h2>
+            <p>Renowned for its awe-inspiring natural beauty and rich culture,
+                 fast-moving metropolises and hill-tribe villages, travellers to Vietnam will
+                  be captivated by its exoticism.</p>
+        </div>
+    </section>
+
+    <section class="mainSearch">
+        <div class="container">
+            <form action="search" method="post" class="row gx-0">
+                <div class="col-10">
+                    <div class="row gx-0">
+                        <div class="col-4 selectTrip">
+                            <select class="form-select" aria-label="Default select example">
+                                <option hidden value="0" selected>Destinations</option>
+                                <option hidden value="1">Viet Nam</option>
+                                <option hidden value="2">Combodia</option>
+                                <option hidden value="3">Laos</option>
+                                <option hidden value="4">England</option>
+                            </select>
+                            <ul class="animate__animated animate__fadeInDown optionSearch">
+                                <li class="active"><span>Destinations</span></li>
+                                <li><span>Viet Nam</span></li>
+                                <li><span>Combodia</span></li>
+                                <li><span>Laos</span></li>
+                                <li><span>England</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-4 selectStyle">
+                            <select class="form-select" aria-label="Default select example">
+                                <option hidden selected>Travel styles</option>
+                                <option hidden value="1">Classic Tours</option>
+                                <option hidden value="2">Family Tours</option>
+                                <option hidden value="3">Community Tours</option>
+                                <option hidden value="4">Adventure Tours</option>
+                            </select>
+                            <ul class="animate__animated animate__fadeInDown optionSearch">
+                                <li class="active"><span>Travel styles</span></li>
+                                <li><span>Classic Tours</span></li>
+                                <li><span>Family Tours</span></li>
+                                <li><span>Community Tours</span></li>
+                                <li><span>Adventure Tours</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-4 selectDuration">
+                            <select class="form-select" aria-label="Default select example">
+                                <option hidden selected>Durations</option>
+                                <option hidden value="1">1 days - 5 days</option>
+                                <option hidden value="2">5 days - 10 days</option>
+                                <option hidden value="3">> 10 days</option>
+                            </select>
+                            <ul class="animate__animated animate__fadeInDown optionSearch">
+                                <li class="active"><span>Durations</span></li>
+                                <li><span>1 days - 5 days</span></li>
+                                <li><span>Family Tours</span></li>
+                                <li><span>5 days - 10 days</span></li>
+                                <li><span>> 10 days</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="btn btnSubmit">Search Now</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="mainTour">
+        <div class="container">
+            <div class="row gx-5 gy-5">
+                <div class="col-4">
+                    <div class="imgBox">
+                        <a href="#">
+                            <img src="./images/mainTour1.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="infoTour">
+                            <h3><a href="#">6D5N Central Vietnam Tour (specially designed for Singaporean!)</a></h3>
+                            <p><a href="#">Price: Contact us</a></p>
+                        </div>
+                        <div class="wrap-button"><a href="#" class="btn btnViewDetail">View Details</a></div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="imgBox">
+                        <a href="#">
+                            <img src="./images/mainTour2.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="infoTour">
+                            <h3><a href="#">10 days North to South Vietnam</a></h3>
+                            <p><a href="#">Price: Contact us</a></p>
+                        </div>
+                        <div class="wrap-button"><a href="#" class="btn btnViewDetail">View Details</a></div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="imgBox">
+                        <a href="#">
+                            <img src="./images/mainTour3.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="infoTour">
+                            <h3><a href="#">Charm Of Southern Vietnam 7D6N</a></h3>
+                            <p><a href="#">Price: Contact us</a></p>
+                        </div>
+                        <div class="wrap-button"><a href="#" class="btn btnViewDetail">View Details</a></div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="imgBox">
+                        <a href="#">
+                            <img src="./images/mainTour4.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="infoTour">
+                            <h3><a href="#">Vietnam - Cambodia Adventure 14D13N</a></h3>
+                            <p><a href="#">Price: Contact us</a></p>
+                        </div>
+                        <div class="wrap-button"><a href="#" class="btn btnViewDetail">View Details</a></div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="imgBox">
+                        <a href="#">
+                            <img src="./images/mainTour5.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="infoTour">
+                            <h3><a href="#">Northern Vietnam Luxury Package 5D4N</a></h3>
+                            <p><a href="#">Price: Contact us</a></p>
+                        </div>
+                        <div class="wrap-button"><a href="#" class="btn btnViewDetail">View Details</a></div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="imgBox">
+                        <a href="#">
+                            <img src="./images/mainTour6.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="wrap-card">
+                        <div class="infoTour">
+                            <h3><a href="#">Cambodia's Heritages</a></h3>
+                            <p><a href="#">Price: Contact us</a></p>
+                        </div>
+                        <div class="wrap-button"><a href="#" class="btn btnViewDetail">View Details</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space-20"></div>
+        <div class="wrap-button"><a href="#" class="btn btnViewDetail arow">View All Tours <i class="fas fa-chevron-right"></i></a></div>
+    </section>
+
+    <footer>
+        <section class="mainFooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="wrap-info">
+                            <div class="imgBox">
+                                <img src="./images/lg.png" alt="">
+                            </div>
+                            <div class="infoCompany">
+                                <h3>HEAD OFFICE</h3>
+                                <div class="info">
+                                    <i class="fas fa-home"></i>
+                                    <span>Thong Nhat, Ward 16, Go Vap District, Ho Chi Minh City, Vietnam</span>
+                                </div>
+                                <div class="info">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>+84 963 98 57 54</span>
+                                </div>
+                                <div class="info">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>booking@travelindochine.com</span>
+                                </div>
+                            </div>
+                            <div class="payment">
+                                <div class="imgBox">
+                                    <img src="./images/paypal.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-7">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Destinations</h3>
+                                    <ul>
+                                        <li><a href="#">Vietnam</a></li>
+                                        <li><a href="#">Cambodia</a></li>
+                                        <li><a href="#">Laos</a></li>
+                                        <li><a href="#">Myanmar</a></li>
+                                        <li><a href="#">Multiple Countries</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Travel Styles</h3>
+                                    <ul>
+                                        <li><a href="#">Classic Tours</a></li>
+                                        <li><a href="#">Family Tours</a></li>
+                                        <li><a href="#">Community Tours</a></li>
+                                        <li><a href="#">Adventure Tours</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Cruises</h3>
+                                    <ul>
+                                        <li><a href="#">Ha Long Bay Cruises</a></li>
+                                        <li><a href="#">Mekong Cruises</a></li>
+                                        <li><a href="#">Shore Excursions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                <div class="wrap-card">
+                                    <h3>Educational Tours</h3>
+                                    <ul>
+                                        <li><a href="#">Community Service Tours</a></li>
+                                        <li><a href="#">Charity Tours</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="./js/site.js"></script>
+
+</body>
+
+</html>

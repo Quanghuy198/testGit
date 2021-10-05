@@ -1,0 +1,31 @@
+.banner{
+    position: relative;
+}
+
+.banner .info{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    object-fit: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner .info h2{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.banner .info p{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+}
+
